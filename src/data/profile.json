@@ -1,0 +1,58 @@
+{
+  "name": "Joseph Bautista Tiglao",
+  "title": "Software Engineer",
+  "location": "Pangasinan, Philippines",
+
+  "availability": "Open to full-time, part-time, freelance, and junior software engineering opportunities.",
+
+  "bio": "Full-stack software engineer focused on building scalable, maintainable, and user-focused applications.",
+
+  "mission": "Turn complex requirements into reliable software that is easy to maintain and scale.",
+
+  "specializations": [
+    "Backend Development",
+    "REST APIs",
+    "Full Stack Development",
+    "Mobile Development"
+  ],
+
+  "currentFocus": [
+    "Serverless Architecture",
+    "Cloud Computing",
+    "Artificial Intelligence",
+    "Cybersecurity"
+  ],
+
+  "workingStyle": [
+    "Clean Architecture",
+    "Maintainable Code",
+    "Scalable Systems"
+  ],
+
+  "interests": [
+    "Cloud Engineering",
+    "System Design",
+    "Artificial Intelligence"
+  ],
+
+  "funFacts": [
+    "Sometimes codes late into the night.",
+    "Prefers backend development.",
+    "Learns by building projects.",
+    "Dreams of building a real-life JARVIS."
+  ],
+
+  "careerGoals": [
+    "Become a cloud-focused software engineer.",
+    "Design scalable distributed systems.",
+    "Build software that solves real-world problems."
+  ],
+
+  "quickFacts": {
+    "remote": true,
+    "relocate": true,
+    "freelance": true,
+    "fullTime": true,
+    "partTime": true
+  }
+}

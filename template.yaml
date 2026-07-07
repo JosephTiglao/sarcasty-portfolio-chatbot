@@ -1,0 +1,87 @@
+# This is the SAM template that represents the architecture of your serverless application
+# https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-template-basics.html
+
+# The AWSTemplateFormatVersion identifies the capabilities of the template
+# https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/format-version-structure.html
+AWSTemplateFormatVersion: 2010-09-09
+Description: >-
+  portfolio_chatbot
+
+# Transform section specifies one or more macros that AWS CloudFormation uses to process your template
+# https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/transform-section-structure.html
+Transform:
+  - AWS::Serverless-2016-10-31
+
+Globals:
+  Function:
+    Runtime: nodejs24.x
+    Architectures:
+      - x86_64
+    Timeout: 100
+    Environment:
+      Variables:
+        ALLOWED_ORIGINS: !Ref AllowedOrigins
+        GEMINI_API_KEY: !Ref GeminiApiKey
+        GROQ_API_KEY: !Ref GroqApiKey
+
+Parameters:
+  AllowedOrigins:
+    Type: String
+    Default: "https://sarcasty.vercel.app"
+    Description: "Comma-separated list of allowed CORS origins"
+  GeminiApiKey:
+    Type: String
+    NoEcho: true
+    Description: "Gemini API key"
+  GroqApiKey:
+    Type: String
+    NoEcho: true
+    Description: "Groq API key"
+
+# Resources declares the AWS resources that you want to include in the stack
+# https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html
+Resources:
+  # Each Lambda function is defined by properties:
+  # https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+
+  #This a Lambda function config associated with the source code: handShake.mjs
+  handShakeFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: src/handlers/handShake.handShakeHandler
+      Description: A simple connection checker between frontend and chatbot.
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            Path: /
+            Method: GET
+        ApiOptions:
+          Type: Api
+          Properties:
+            Path: /
+            Method: OPTIONS
+
+  # This is a Lambda function config associated with the source code: chat.mjs
+  chatFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: src/handlers/chat.chatHandler
+      MemorySize: 128
+      Description: A simple example includes a HTTP post method to interact with chatbot.
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            Path: /chat
+            Method: POST
+        ApiOptions:
+          Type: Api
+          Properties:
+            Path: /chat
+            Method: OPTIONS
+
+Outputs:
+  WebEndpoint:
+    Description: "API Gateway endpoint URL for Prod stage"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.${AWS::URLSuffix}/Prod/"

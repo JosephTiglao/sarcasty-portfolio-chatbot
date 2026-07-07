@@ -1,0 +1,85 @@
+{
+  "languages": {
+    "primary": {
+      "JavaScript": "Intermediate",
+      "Python": "Advanced",
+      "PHP": "Intermediate",
+      "TypeScript": "Beginner"
+    },
+
+    "familiar": {
+      "Java": "Intermediate",
+      "C++": "Intermediate",
+      "C#": "Intermediate",
+      "Dart": "Intermediate"
+    }
+  },
+
+  "frontend": {
+    "core": {
+      "HTML": "Advanced",
+      "CSS": "Advanced"
+    },
+    "frameworks": {
+      "React": "Beginner",
+      "Tailwind CSS": "Beginner"
+    },
+    "mobile": {
+      "Flutter": "Intermediate"
+    }
+  },
+
+  "backend": {
+    "frameworks": {
+      "Node.js": "Intermediate",
+      "Express.js": "Beginner",
+      "Flask": "Beginner",
+      "Laravel": "Intermediate",
+      "ASP.NET": "Beginner"
+    }
+  },
+
+  "databases": {
+    "PostgreSQL": "Learning",
+    "MySQL": "Advanced",
+    "MongoDB": "Beginner",
+    "Firebase": "Intermediate",
+    "SQLite": "Beginner"
+  },
+
+  "deployment": {
+    "Docker": "Learning",
+    "Render": "Beginner",
+    "Vercel": "Intermediate",
+    "GitHub Actions": "Learning"
+  },
+
+  "tools": {
+    "Git": "Intermediate",
+    "GitHub": "Intermediate",
+    "Bitbucket": "Beginner",
+    "VS Code": "Intermediate",
+    "Postman": "Beginner"
+  },
+
+  "cloud": {
+    "AWS Lambda": "Learning",
+    "AWS SAM": "Learning"
+  },
+
+  "currentlyLearning": [
+    "AWS Lambda",
+    "AWS SAM",
+    "Serverless Architecture",
+    "Cloud Development",
+    "Cybersecurity"
+  ],
+
+  "strengths": [
+    "REST API Design",
+    "Backend Development",
+    "Full Stack Development",
+    "Database Design",
+    "Cloud Computing"
+  ]
+}

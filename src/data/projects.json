@@ -1,0 +1,299 @@
+[
+  {
+    "id": "ip-geotracker",
+    "title": "IP Geotracker",
+    "type": "Personal",
+    "status": "Completed",
+    "description": "A web application that visualizes the geolocation of an IP address on an interactive map.",
+    "problemSolved": "Provides an easy way to locate IP addresses and display useful networking information.",
+    "features": [
+      "IP lookup",
+      "Interactive map",
+      "Search history",
+      "Live location updates"
+    ],
+    "techStack": {
+      "frontend": ["React", "React Leaflet", "Axios", "CSS"],
+      "backend": ["Node.js", "Express"],
+      "api": ["IPInfo API", "OpenStreetMap"],
+      "deployment": ["Vercel"]
+    },
+    "role": "Full Stack Developer",
+    "challenges": [
+      "React Leaflet",
+      "Bogon IP handling",
+      "Map synchronization",
+      "Vercel deployment"
+    ],
+    "learnings": [
+      "Working with third-party APIs",
+      "Interactive map integration",
+      "Managing asynchronous data",
+      "Deploying full-stack applications"
+    ],
+    "demo": "https://ip-geotracker.sarcasty.xyz/"
+  },
+  {
+    "id": "coaching-module",
+    "title": "Coaching Module",
+    "type": "Professional",
+    "status": "Completed",
+    "description": "Contributed as a Full Stack Developer to an internal employee coaching platform, developing modules that support centralized workflow management and user interaction.",
+    "problemSolved": "Improved employee coaching workflows by supporting centralized management, mentor-employee interactions, and coaching progress tracking.",
+    "team": "Collaborative development team",
+    "techStack": {
+      "frontend": ["React", "Tailwind CSS", "React Query"],
+      "backend": ["Node.js", "TypeScript"],
+      "database": ["MySQL"],
+      "testing": ["Vitest"],
+      "deployment": ["Docker", "Vercel"],
+      "ci": ["GitHub Actions"]
+    },
+    "role": "Full Stack Developer",
+    "challenges": [
+      "Legacy codebase",
+      "Large MySQL schema",
+      "Business rules",
+      "Docker setup"
+    ],
+    "learnings": [
+      "Enterprise software development",
+      "Writing maintainable code",
+      "Collaborating in Agile teams",
+      "Building production-ready features"
+    ],
+    "demo": null,
+    "confidentiality": "Only high-level information can be shared. Brief info and tech stack"
+  },
+  {
+    "id": "graduate-tracer",
+    "title": "Graduate Tracer",
+    "type": "Academic",
+    "status": "Completed",
+    "team": "Group project",
+    "description": "Contributed as a Full Stack Developer to a graduate information system that tracks post-graduation outcomes through survey forms.",
+    "problemSolved": "Helped develop a system that collects graduate employment data, digitizes alumni surveys, generates graduate outcome reports, and replaces manual record keeping.",
+    "features": [
+      "Graduate surveys through Google Forms",
+      "Alumni profile management",
+      "Report generation",
+      "Data visualization"
+    ],
+    "techStack": {
+      "frontend": ["HTML", "CSS", "JavaScript", "EJS", "Chart.js"],
+      "backend": ["Node.js", "Express.js"],
+      "database": ["MongoDB"]
+    },
+    "role": "Full Stack Developer",
+    "challenges": [
+      "Server-side rendering",
+      "Survey integration",
+      "Data visualization",
+      "Team collaboration"
+    ],
+    "learnings": [
+      "Server-side rendering concepts",
+      "Data visualization",
+      "Building information systems",
+      "Working in a development team"
+    ],
+    "demo": null
+  },
+  {
+    "id": "petsup",
+    "title": "Petsup",
+    "type": "Academic",
+    "status": "Completed",
+    "team": "Group project",
+    "description": "An animal food e-commerce website where users browse, add to cart, and buy products, while admins manage products and orders.",
+    "problemSolved": "Digitized pet food purchasing, simplified product and order management, and provided an online shopping experience for pet owners.",
+    "features": [
+      "Product catalog",
+      "Shopping cart",
+      "Order management",
+      "Admin dashboard"
+    ],
+    "techStack": {
+      "frontend": ["HTML", "CSS", "JavaScript", "Jinja2"],
+      "backend": ["Python", "Flask"],
+      "database": ["MySQL"]
+    },
+    "role": "Full Stack Developer",
+    "challenges": [
+      "MVC architecture",
+      "Database design",
+      "User authentication"
+    ],
+    "learnings": [
+      "Designing CRUD applications",
+      "Applying MVC architecture",
+      "Managing user sessions",
+      "Building complete e-commerce workflows"
+    ],
+    "demo": null
+  },
+  {
+    "id": "roadsense",
+    "title": "Roadsense",
+    "type": "Capstone",
+    "status": "Completed",
+    "team": "Group capstone project (sole developer)",
+    "description": "An Android-based drowsiness detection system developed as a capstone project to promote safer driving through real-time fatigue monitoring.",
+    "problemSolved": "Detects driver drowsiness to help reduce road accidents and alerts drivers before fatigue becomes dangerous.",
+    "features": [
+      "Drowsiness detection",
+      "Face detection",
+      "Driver alerts",
+      "GPS tracking"
+    ],
+    "techStack": {
+      "mobile": ["Flutter", "Dart"],
+      "backend": ["REST API"],
+      "database": ["Firebase"],
+      "ai": ["Google ML Kit Face Detection"],
+      "maps": ["Google Maps"]
+    },
+    "role": "Full Stack Mobile Developer",
+    "challenges": [
+      "ML Kit integration",
+      "Camera performance",
+      "Real-time detection",
+      "Capstone timeline"
+    ],
+    "learnings": [
+      "Integrating AI into mobile apps",
+      "Designing safety-focused applications",
+      "Handling real-time data",
+      "Building capstone-scale systems"
+    ],
+    "demo": null
+  },
+  {
+    "id": "kilome",
+    "title": "Kilome",
+    "type": "Academic",
+    "status": "Completed",
+    "team": "Solo",
+    "description": "A mobile application-based reward system that tracks running distance and allows users to redeem essential items from partnered stores.",
+    "problemSolved": "Encourages healthy lifestyles by rewarding users for physical activity while connecting them with partnered stores through a point redemption system.",
+    "features": [
+      "Running distance tracking",
+      "GPS route tracking",
+      "Reward points system",
+      "Reward redemption"
+    ],
+    "techStack": {
+      "mobile": ["Flutter", "Dart"],
+      "database": ["Firebase"],
+      "maps": ["Google Maps", "Geolocation"]
+    },
+    "role": "Full Stack Mobile Developer",
+    "challenges": ["GPS accuracy", "Reward logic", "Firebase integration"],
+    "learnings": [
+      "Location-based application development",
+      "Designing reward systems",
+      "Managing mobile app state",
+      "Creating user-centered experiences"
+    ],
+    "demo": null
+  },
+  {
+    "id": "pabilihaw",
+    "title": "PabilIhaw",
+    "type": "Academic",
+    "status": "Completed",
+    "team": "Group project",
+    "description": "A time-based cooking arcade game that immerses players in the traditional Filipino street food experience.",
+    "problemSolved": "Promoted Filipino street food culture through an interactive mobile game while providing an engaging arcade-style cooking experience that challenges players' reaction time and multitasking skills.",
+    "features": [
+      "Time-based cooking gameplay",
+      "Multiple food orders",
+      "Score tracking",
+      "High score saving"
+    ],
+    "techStack": {
+      "mobile": ["Flutter", "Dart", "Flame Engine"],
+      "storage": ["Shared Preferences"]
+    },
+    "role": "Mobile Game Developer",
+    "challenges": ["Game mechanics", "State management", "Team coordination"],
+    "learnings": [
+      "Game development fundamentals",
+      "Designing engaging gameplay",
+      "Managing game state",
+      "Balancing teamwork and development"
+    ],
+    "demo": null
+  },
+  {
+    "id": "portfolio-website",
+    "title": "Portfolio Website",
+    "type": "Personal",
+    "status": "Ongoing",
+    "team": "Solo",
+    "description": "A responsive personal portfolio website showcasing my projects, skills, experience, and an AI-powered chatbot that answers questions about me.",
+    "problemSolved": "Provides a centralized platform for recruiters and visitors to explore my work, learn about my experience, and easily get in touch while demonstrating my frontend development skills.",
+    "features": [
+      "Responsive design",
+      "Project showcase",
+      "Downloadable CV",
+      "AI chatbot integration",
+      "Mobile-friendly navigation"
+    ],
+    "techStack": {
+      "frontend": ["React", "Vite", "Tailwind CSS", "Framer Motion"],
+      "deployment": ["Vercel"]
+    },
+    "role": "Full Stack Developer",
+    "challenges": ["UI design", "Performance", "Animation timing"],
+    "learnings": [
+      "Personal branding",
+      "Modern UI/UX design",
+      "Responsive web development",
+      "Creating polished user experiences"
+    ],
+    "demo": {
+      "customDomain": "https://sarcasty.xyz",
+      "vercel": "https://sarcasty.vercel.app"
+    }
+  },
+  {
+    "id": "portfolio-chatbot",
+    "title": "Sarcasty AI Chatbot",
+    "type": "Personal",
+    "status": "Ongoing",
+    "team": "Solo",
+    "description": "An AI-powered portfolio assistant that answers questions about my skills, projects, experience, and contact information using a serverless architecture and multiple AI providers.",
+    "problemSolved": "Allows visitors to ask natural language questions instead of manually browsing the portfolio, providing an interactive way to learn about my skills, projects, experience, and contact information while showcasing modern AI and serverless development.",
+    "features": [
+      "AI-powered question answering",
+      "Knowledge-base-driven responses",
+      "Multiple AI provider fallback",
+      "Prompt engineering",
+      "JSON knowledge base"
+    ],
+    "techStack": {
+      "frontend": ["React"],
+      "backend": ["Node.js", "Express"],
+      "cloud": ["AWS Lambda", "AWS SAM"],
+      "ai": ["Google Gemini", "Groq"],
+      "testing": ["Vitest"]
+    },
+    "role": "Full Stack Developer",
+    "challenges": [
+      "Prompt engineering",
+      "Context optimization",
+      "Token efficiency",
+      "AWS Lambda"
+    ],
+    "learnings": [
+      "Prompt engineering",
+      "Designing AI conversations",
+      "Optimizing context and token usage",
+      "Building serverless AI applications"
+    ],
+    "demo": {
+      "website": "https://sarcasty.xyz"
+    }
+  }
+]

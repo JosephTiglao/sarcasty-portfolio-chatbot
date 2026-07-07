@@ -1,0 +1,32 @@
+[
+  {
+    "company": "Offshore Concept BPO Services, Inc.",
+    "position": "Software Engineering Intern",
+    "employmentType": "Internship",
+    "duration": {
+      "start": "February 2026",
+      "end": "April 2026"
+    },
+    "role": "Full Stack Developer",
+    "summary": "Contributed to the development of a production web application as part of an Agile development team.",
+    "responsibilities": [
+      "Developed and integrated a web-based coaching workflow module using React, TypeScript, and RESTful APIs.",
+      "Built responsive frontend interfaces using React and Tailwind CSS.",
+      "Developed backend services with Node.js, TypeScript, MySQL, and Prisma ORM.",
+      "Containerized the application using Docker.",
+      "Wrote unit and integration tests using Vitest.",
+      "Collaborated with stakeholders during requirements gathering and User Acceptance Testing (UAT)."
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Tailwind CSS",
+      "MySQL",
+      "Prisma ORM",
+      "Docker",
+      "Vitest",
+      "REST API"
+    ]
+  }
+]

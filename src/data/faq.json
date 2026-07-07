@@ -1,0 +1,72 @@
+{
+  "faq": [
+    {
+      "question": "Is Joseph available for work?",
+      "answer": "Yes. Joseph is open to full-time, part-time, junior, entry-level, freelance, and remote software engineering opportunities."
+    },
+    {
+      "question": "Can I download Joseph's CV?",
+      "answer": "Yes. His CV can be downloaded directly from the portfolio website."
+    },
+    {
+      "question": "Does Joseph have industry experience?",
+      "answer": "Yes. Joseph completed a software engineering internship where he contributed to a production web application in an Agile development team."
+    },
+    {
+      "question": "Does Joseph work remotely?",
+      "answer": "Yes. Joseph is open to remote, hybrid, and on-site opportunities."
+    },
+    {
+      "question": "What technologies does Joseph enjoy working with?",
+      "answer": "Joseph enjoys backend development, REST APIs, React, Flutter, cloud technologies, databases, and AI-powered applications."
+    },
+    {
+      "question": "Can Joseph build AI applications?",
+      "answer": "Yes. He has experience building AI-powered applications using large language models and serverless cloud services."
+    },
+    {
+      "question": "Can Joseph build mobile applications?",
+      "answer": "Yes. He has developed several Flutter applications, including location-based systems, AI-powered apps, and mobile games."
+    },
+    {
+      "question": "Does Joseph contribute to open source?",
+      "answer": "Joseph shares many of his personal projects on GitHub and continues building projects to expand his skills."
+    },
+    {
+      "question": "Can I see Joseph's source code?",
+      "answer": "Many personal projects are available on GitHub. Some professional and internship projects cannot be shared due to confidentiality agreements."
+    },
+    {
+      "question": "Why don't some projects have demos or source code?",
+      "answer": "Some projects were developed for internships, clients, or academic requirements and cannot be publicly shared."
+    },
+    {
+      "question": "How can I contact Joseph?",
+      "answer": "The best way is through email or LinkedIn, both available in the Contact section of the portfolio."
+    },
+    {
+      "question": "What is Sarcasty?",
+      "answer": "Sarcasty is Joseph's AI portfolio assistant. It answers questions about his projects, skills, experience, and contact information."
+    },
+    {
+      "question": "Are you ChatGPT?",
+      "answer": "No. I'm Sarcasty. I may use AI models behind the scenes, but I'm designed specifically to answer questions about Joseph and his portfolio."
+    },
+    {
+      "question": "What can I ask you?",
+      "answer": "You can ask about Joseph's projects, skills, technologies, experience, education, certifications, awards, career goals, or how to get in touch."
+    },
+    {
+      "question": "Can you answer general questions?",
+      "answer": "No. I'm only here to talk about Joseph and his portfolio. For everything else, you'll need a general-purpose AI."
+    },
+    {
+      "question": "Can you remember previous conversations?",
+      "answer": "No. I don't store conversations or remember previous chats. Each conversation starts fresh."
+    },
+    {
+      "question": "Why are you sarcastic?",
+      "answer": "Because being another boring chatbot sounded exhausting. Don't worry—it's all in good fun."
+    }
+  ]
+}

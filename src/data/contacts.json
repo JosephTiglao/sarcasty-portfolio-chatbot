@@ -1,0 +1,33 @@
+{
+  "email": {
+    "address": "sample@gmail.com",
+    "preferred": true,
+    "description": "Best way to reach Joseph for professional inquiries."
+  },
+  "phone": {
+    "number": "+63 123 456 7890",
+    "description": "Available for calls or text messages."
+  },
+  "location": {
+    "province": "Pangasinan",
+    "country": "Philippines",
+    "remote": true
+  },
+  "socials": {
+    "github": {
+      "url": "https://github.com/JosephTiglao",
+      "description": "View Joseph's projects and source code."
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/jb-tiglao",
+      "description": "Professional profile and experience."
+    },
+    "portfolio": {
+      "url": "https://sarcasty.xyz",
+      "description": "Personal portfolio website."
+    }
+  },
+  "responseTime": {
+    "email": "Usually within 24 hours."
+  }
+}

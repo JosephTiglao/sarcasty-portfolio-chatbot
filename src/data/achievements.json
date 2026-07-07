@@ -1,0 +1,72 @@
+{
+  "certifications": [
+    {
+      "title": "TOPCIT Level 3 Certified",
+      "issuer": "TOPCIT Philippines",
+      "year": 2025
+    },
+    {
+      "title": "Networking Basics",
+      "issuer": "Cisco Networking Academy",
+      "year": 2024
+    },
+    {
+      "title": "PCAP: Programming Essentials in Python",
+      "issuer": "Cisco Networking Academy & Python Institute",
+      "year": 2021
+    },
+    {
+      "title": "Networking Essentials",
+      "issuer": "Cisco Networking Academy",
+      "year": 2021
+    },
+    {
+      "title": "Introduction to IoT",
+      "issuer": "Cisco Networking Academy",
+      "year": 2021
+    },
+    {
+      "title": "Introduction to Cybersecurity",
+      "issuer": "Cisco Networking Academy",
+      "year": 2021
+    }
+  ],
+  "competitions": [
+    {
+      "title": "National IT Skills Competition",
+      "category": "Java Programming",
+      "achievement": "National Participant",
+      "year": 2024
+    },
+    {
+      "title": "COC Collide Student Fair",
+      "category": "C++ Programming",
+      "achievement": "1st Runner-Up",
+      "year": 2023
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's Lister",
+      "year": 2023,
+      "description": "2nd Semester AY 2022–2023"
+    }
+  ],
+  "trainings": [
+    {
+      "title": "AI Ready ASEAN - Hour of Code Campaign",
+      "organizer": "Google.org & ASEAN Foundation",
+      "year": 2025
+    },
+    {
+      "title": "DevFest Baguio",
+      "organizer": "Google Developer Groups (GDG)",
+      "year": 2024
+    },
+    {
+      "title": "AI in Cybersecurity",
+      "organizer": "Technical Training",
+      "year": 2024
+    }
+  ]
+}
